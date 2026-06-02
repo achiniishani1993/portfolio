@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from "../../assets/profile.jpeg"
+import Profile from "../../assets/profile.png"
 import "./header.css";
 
 function Header() {
