@@ -1,0 +1,95 @@
+.intro-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    margin: 0 60px;
+}
+
+/* Left side */
+.image-wrapper {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #CA8E03, #EAB115);
+    padding: 24px;
+    border-radius: 15px;
+}
+
+/* Right side */
+.text-wrapper {
+    flex: 0 0 60%;
+    background: linear-gradient(135deg, #FFDEA4, #F9F7DB, #F8D864);
+    padding: 20px;
+    border-radius: 15px;
+    min-height: 330px;
+}
+
+/* Dark mode text wrapper */
+body.dark-mode .text-wrapper {
+    background: linear-gradient(135deg, #8E5600, #5D3412, #8C5421);
+}
+
+/* Image styling */
+.image-wrapper img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/* Tablet responiveness  */
+@media (max-width: 992px) {
+    .intro-container {
+        margin: 0 30px;
+        gap: 20px;
+    }
+
+    .image-wrapper img {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 768px) {
+    .intro-container {
+        flex-direction: column;
+        margin: 0 20px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .image-wrapper,
+    .text-wrapper {
+        flex: 1 1 100%;
+        width: 100%;
+    }
+
+    .image-wrapper img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .text-wrapper {
+        min-height: auto;
+    }
+}
+
+/* Small devices responsiveness */
+
+@media (max-width: 480px) {
+    .intro-container {
+        margin: 0 10px;
+        padding: 15px;
+    }
+
+    .image-wrapper img {
+        width: 150px;
+        height: 150px;
+    }
+}

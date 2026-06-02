@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './NavBar.css';
+import './navBar.css';
 
 const NavBar = () => {
   const [darkMode, setDarkMode] = useState(false);
