@@ -13,9 +13,9 @@ const NavBar = () => {
   };
 
   return (
-    <Navbar expand="lg" className="bg-body-white mt-5">
+    <Navbar expand="lg" className="bg-body-white mt-5" data-bs-theme={darkMode ? "dark" : "light"}>
       <Container>
-        <Navbar.Brand href="#home">Achini Ishani
+        <Navbar.Brand href="#home" className='fs-4'>Achini Ishani
           <button
               className="theme-btn ms-3"
               onClick={toggleTheme}
@@ -31,8 +31,8 @@ const NavBar = () => {
         </Navbar.Brand>
       
        {/* hamburger menu button */}
-       
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+ <Navbar.Toggle aria-controls="basic-navbar-nav" className="custom-toggler" />
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-center">
