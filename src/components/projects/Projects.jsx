@@ -14,11 +14,11 @@ const Projects = () => {
       <Carousel className="mx-5 mt-5 custom-carousel">
         <Carousel.Item>
           <img className="d-block rounded w-100" src={Cafe} alt="Project 1" />
-          <Carousel.Caption className="bg-dark rounded">
+          <Carousel.Caption className="bg-dark rounded caption">
             <h3>Cafe Nora</h3>
             <p>
               Technologies Used: HTML, CSS, Google Fonts, Embedded Google Maps,
-              Font Awesome icons, Figma
+              Font Awesome icons, Figma, Jira
             </p>
 
             <a
@@ -33,11 +33,11 @@ const Projects = () => {
 
         <Carousel.Item>
           <img
-            className="d-block w-100 rounded"
+            className="d-block w-100 rounded "
             src={Bhromaon}
             alt="Project 2"
           />
-          <Carousel.Caption className="bg-dark rounded">
+          <Carousel.Caption className="bg-dark rounded caption">
             <h3>Bhromaon</h3>
             <p>
               Technologies Used: HTML, CSS3 / SCSS (SASS), JavaScript,
@@ -59,9 +59,9 @@ const Projects = () => {
             src={Sky}
             alt="Project 2"
           />
-          <Carousel.Caption className="bg-dark rounded">
+          <Carousel.Caption className="bg-dark rounded caption">
             <h3>Sky-Sprinter</h3>
-            <p>Technologies Used: HTML, CSS, JavaScript, Material UI</p>
+            <p>Technologies Used: HTML, CSS, JavaScript</p>
             <a
               href="https://achiniishani1993.github.io/Sky-Sprinter/"
               target="_blank"
@@ -77,9 +77,9 @@ const Projects = () => {
             src={Facebook}
             alt="Project 2"
           />
-          <Carousel.Caption className="bg-dark rounded">
+          <Carousel.Caption className="bg-dark rounded caption">
             <h3>FaceBook-Clone</h3>
-            <p>Technologies Used: React, CSS, TypeScript</p>
+            <p>Technologies Used: React, CSS, TypeScript, Material UI</p>
             <a
               href="https://achiniishani1993.github.io/Facebook-clone/"
               target="_blank"
@@ -95,9 +95,9 @@ const Projects = () => {
             src={Game}
             alt="Project 2"
           />
-          <Carousel.Caption className="bg-dark rounded">
+          <Carousel.Caption className="bg-dark rounded caption">
             <h3>Squid Game</h3>
-            <p>Technologies Used: React, Javascript, CSS, Bootstrap</p>
+            <p>Technologies Used: React, Javascript, CSS, Bootstrap, Figma, Jira</p>
             <a
               href="https://achiniishani1993.github.io/squid-game/"
               target="_blank"
