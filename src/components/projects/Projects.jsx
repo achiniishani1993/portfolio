@@ -10,6 +10,7 @@ import Game from "../../assets/game.png";
 const Projects = () => {
   return (
     <div className="carousel-wrapper ">
+        <h2 className="fs-5 mt-5 ms-5">EXAMPLES OF MY WORK</h2>
       <Carousel className="mx-5 mt-5 custom-carousel">
         <Carousel.Item>
           <img className="d-block rounded w-100" src={Cafe} alt="Project 1" />
