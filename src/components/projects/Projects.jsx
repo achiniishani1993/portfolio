@@ -9,7 +9,7 @@ import Game from "../../assets/game.png";
 
 const Projects = () => {
   return (
-    <div className="carousel-wrapper ">
+    <div className="carousel-wrapper " id="projects">
         <h2 className="fs-5 mt-5 ms-5">EXAMPLES OF MY WORK</h2>
       <Carousel className="mx-5 mt-5 custom-carousel">
         <Carousel.Item>

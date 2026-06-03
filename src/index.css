@@ -11,3 +11,7 @@ body {
     min-height: 100vh;
     font-family: 'Inria Serif', serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
