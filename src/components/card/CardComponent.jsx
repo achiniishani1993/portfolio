@@ -59,6 +59,7 @@ const CardComponent = () => {
           <ul>
             <li>HTML</li>
             <li>JavaScript</li>
+            <li>TypeScript</li>
             <li>React.js</li>
             <li>CSS</li>
             <li>SCSS</li>
