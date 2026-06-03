@@ -25,10 +25,50 @@ body .dark-mode .test-head{
     text-align: center !important;
 }
 
-.Card-Header{
+.card-Header{
     margin-left: 50px;
 }
 
 .testimonial-wrapper{
     margin: 0 60px;
+}
+
+
+
+/* Tablet responiveness  */
+@media (max-width: 992px) {
+    .card-Header{
+        text-align: center;
+        margin-left: 0;
+    }
+    .testimonial-wrapper{
+        width: 100%;
+         margin: 0;
+    }
+}
+
+/* Mobile Responsiveness */
+
+@media (max-width: 768px) {
+    .card-Header{
+        text-align: center;
+         margin-left: 0;
+    }
+   .testimonial-wrapper{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Small devices responsiveness */
+
+@media (max-width: 480px) {
+    .card-Header{
+        text-align: center;
+         margin-left: 0;
+    }
+    .testimonial-wrapper{
+        width: 100%;
+         margin: 0;
+    }
 }
