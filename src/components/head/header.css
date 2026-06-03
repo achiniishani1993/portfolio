@@ -1,8 +1,8 @@
 .intro-container {
     display: flex;
     align-items: center;
-    gap: 30px;
-    padding: 40px;
+    gap: 10px;
+    padding: 50px;
     margin: 0 60px;
 }
 
@@ -22,7 +22,7 @@
 .text-wrapper {
     flex: 0 0 60%;
     background: linear-gradient(135deg, #FFDEA4, #F9F7DB, #F8D864);
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
     min-height: 330px;
 }
