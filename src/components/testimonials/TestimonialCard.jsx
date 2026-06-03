@@ -5,7 +5,7 @@ const TestimonialCard = () => {
   return (
     <div className="mt-5  testimonial-wrapper">
       <h2 className="fs-5 mt-5 card-Header ">TESTIMONIALS</h2>
-      <Accordion defaultActiveKey="0" className="mt-5 mx-5">
+      <Accordion defaultActiveKey="0" className="mt-5 mx-5 test-Accordion">
         <Accordion.Item eventKey="0">
           <Accordion.Header>Accordion Item #1</Accordion.Header>
           <Accordion.Body className="test-body">

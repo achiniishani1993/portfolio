@@ -42,8 +42,10 @@ body .dark-mode .test-head{
         margin-left: 0;
     }
     .testimonial-wrapper{
-        width: 100%;
-         margin: 0;
+        margin: 0 !important;
+    }
+    .test-Accordion{
+        margin: 0 60px !important;
     }
 }
 
@@ -55,8 +57,11 @@ body .dark-mode .test-head{
          margin-left: 0;
     }
    .testimonial-wrapper{
-        width: 100%;
-        margin: 0;
+        /* width: 100%; */
+        margin: 0 !important;
+    }
+     .test-Accordion{
+        margin: 0 10px !important;
     }
 }
 
@@ -68,7 +73,10 @@ body .dark-mode .test-head{
          margin-left: 0;
     }
     .testimonial-wrapper{
-        width: 100%;
-         margin: 0;
+       
+         margin: 0 !important;
+    }
+     .test-Accordion{
+        margin: 0 10px !important;
     }
 }
