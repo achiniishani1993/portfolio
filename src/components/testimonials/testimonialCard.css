@@ -1,0 +1,34 @@
+.accordion-button {
+  background-color: #F9F7DB !important; 
+
+}
+
+body.dark-mode .accordion-button {
+  background-color: #c38f3c !important;
+}
+
+body.dark-mode .test-body{
+    background-color: black;
+    color: white;
+}
+
+.test-body{
+    letter-spacing: 0.02rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+body .dark-mode .test-head{
+    color: black;
+}
+.test-head{
+    text-align: center !important;
+}
+
+.Card-Header{
+    margin-left: 50px;
+}
+
+.testimonial-wrapper{
+    margin: 0 60px;
+}
