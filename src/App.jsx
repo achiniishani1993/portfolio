@@ -4,6 +4,7 @@ import CardComponent from "./components/card/CardComponent";
 import Projects from "./components/projects/Projects";
 import TestimonialCard from "./components/testimonials/TestimonialCard";
 import ContactForm from "./components/contact/ContactForm";
+import Footer from "./footer/Footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Projects/>
       <TestimonialCard/>
       <ContactForm/>
+      <Footer/>
     </div>
   );
 };
