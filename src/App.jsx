@@ -3,7 +3,7 @@ import Header from "./components/head/header";
 import CardComponent from "./components/card/CardComponent";
 import Projects from "./components/projects/Projects";
 import TestimonialCard from "./components/testimonials/TestimonialCard";
-import Contact from "./components/contact/Contact";
+import ContactForm from "./components/contact/ContactForm";
 
 const App = () => {
   return (
@@ -13,7 +13,7 @@ const App = () => {
       <CardComponent />
       <Projects/>
       <TestimonialCard/>
-      <Contact/>
+      <ContactForm/>
     </div>
   );
 };
