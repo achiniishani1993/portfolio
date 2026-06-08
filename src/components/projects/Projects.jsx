@@ -1,11 +1,11 @@
 import "./projects.css";
 
 import Carousel from "react-bootstrap/Carousel";
-import Cafe from "../../assets/cafe.png";
-import Bhromaon from "../../assets/bhromaon.png";
-import Sky from "../../assets/sky.png";
-import Facebook from "../../assets/facebook.png";
-import Game from "../../assets/game.png";
+import Cafe from "../../assets/cafe.webp";
+import Bhromaon from "../../assets/bhromaon.webp";
+import Sky from "../../assets/sky.webp";
+import Facebook from "../../assets/facebook.webp";
+import Game from "../../assets/game.webp";
 
 const Projects = () => {
   return (

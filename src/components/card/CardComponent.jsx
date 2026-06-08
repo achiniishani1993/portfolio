@@ -2,15 +2,15 @@ import { useState } from "react";
 import Card from "react-bootstrap/Card";
 import Modal from "react-bootstrap/Modal";
 
-import Edu from "../../assets/edu.png";
-import Work from "../../assets/work.png";
-import Skills from "../../assets/skills.png";
-
 import "./cardComponent.css";
 
 const CardComponent = () => {
   const [show, setShow] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
+
+  const Edu = "/edu.webp";
+  const Work = "/work.webp";
+  const Skills = "/skills.webp";
 
   const cardData = {
     education: {
@@ -76,28 +76,31 @@ const CardComponent = () => {
     },
   };
 
-  const handleShow = (cardType) => {
-    setSelectedCard(cardType);
-    setShow(true);
-  };
-
   const cards = [
     {
       id: "education",
       title: "Education",
       image: Edu,
+      alt: "Education and academic qualifications",
     },
     {
       id: "work",
       title: "Work",
       image: Work,
+      alt: "Work experience and professional background",
     },
     {
       id: "skills",
       title: "Skills",
       image: Skills,
+      alt: "Technical skills and development tools",
     },
   ];
+
+  const handleShow = (type) => {
+    setSelectedCard(type);
+    setShow(true);
+  };
 
   return (
     <>
@@ -105,13 +108,18 @@ const CardComponent = () => {
         {cards.map((card) => (
           <Card
             key={card.id}
-            style={{ width: "25rem" }}
             className="shadow-sm cardBox"
             onClick={() => handleShow(card.id)}
           >
-            <Card.Img variant="top" src={card.image} />
+            <Card.Img
+              variant="top"
+              src={card.image}
+              alt={card.alt}
+              fetchPriority="high"
+              loading="eager"
+            />
             <Card.Body>
-              <Card.Title className="text-center fw-bold Card-Title">
+              <Card.Title className="text-center fw-bold">
                 {card.title}
               </Card.Title>
             </Card.Body>
@@ -119,13 +127,7 @@ const CardComponent = () => {
         ))}
       </div>
 
-      <Modal
-        show={show}
-        onHide={() => setShow(false)}
-        className="bg-black p-5"
-        centered
-        size="xl"
-      >
+      <Modal show={show} onHide={() => setShow(false)} centered size="xl">
         <Modal.Header closeButton>
           <Modal.Title>
             {selectedCard && cardData[selectedCard].title}

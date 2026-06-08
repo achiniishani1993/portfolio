@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './navBar.css';
+import { Sun, Moon } from "lucide-react";
 
 const NavBar = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -13,18 +14,18 @@ const NavBar = () => {
   };
 
   return (
-    <Navbar expand="lg" className="bg-body-white mt-5" data-bs-theme={darkMode ? "dark" : "light"}>
-      <Container>
-        <Navbar.Brand href="#home" className='fs-4'>Achini Ishani
+    <Navbar expand="lg" className=" bg-body-white mt-5" data-bs-theme={darkMode ? "dark" : "light"}>
+      <Container >
+        <Navbar.Brand href="#home" className='fs-4 nav-left'>Achini Ishani
           <button
               className="theme-btn ms-3"
               onClick={toggleTheme}
               aria-label="Toggle theme"
             >
               {darkMode ? (
-                <i className="bi bi-sun-fill"></i>
+                 <Sun size={20} />
               ) : (
-                <i className="bi bi-moon-fill"></i>
+                 <Moon size={20} />
               )}
             </button>
 

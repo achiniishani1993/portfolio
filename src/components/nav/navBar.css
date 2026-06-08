@@ -24,6 +24,12 @@
   color: purple;
 }
 
+.nav-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .theme-btn {
   border: none;
   background: transparent;

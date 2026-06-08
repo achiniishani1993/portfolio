@@ -10,7 +10,8 @@
 
 /* Make images consistent */
 .custom-carousel img {
-  height: 600px;
+  height: auto;
+   object-fit: cover;
 }
 
 
@@ -21,7 +22,7 @@
   }
 
   .custom-carousel img {
-    height: 550px;
+    height: auto;
   }
 
   .caption {
@@ -50,7 +51,7 @@
   }
 
   .custom-carousel img {
-    height: 450px;
+    height: auto;
   }
 
   .caption {
@@ -84,7 +85,7 @@
   }
 
   .custom-carousel img {
-    height: 320px;
+    height: auto;
   }
 
   .caption {
@@ -126,7 +127,7 @@
   }
 
   .custom-carousel img {
-    height: 250px;
+    height: auto;
   }
 
   .caption {

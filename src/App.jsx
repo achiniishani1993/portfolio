@@ -4,7 +4,7 @@ import CardComponent from "./components/card/CardComponent";
 import Projects from "./components/projects/Projects";
 import TestimonialCard from "./components/testimonials/TestimonialCard";
 import ContactForm from "./components/contact/ContactForm";
-import Footer from "./footer/Footer";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (

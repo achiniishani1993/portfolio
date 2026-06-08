@@ -2,6 +2,12 @@
   cursor: pointer;
   transition: all 0.3s ease;
   border: none !important;
+    will-change: transform;
+
+  width: 100%;
+  max-width: 25rem;
+   min-height: 320px;
+  
 }
 
 .cardBox:hover {
@@ -11,12 +17,27 @@
   border: none !important;
 }
 
+.cardBox img {
+  width: 100%;
+  height: auto;
+   aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
 /* Dark mode text wrapper */
 body.dark-mode .cardBox {
-  background-color: #18181B;
+  background-color: #18181b;
   color: white;
 }
 
 body.dark-mode .cardBox:hover {
   background-color: #313137;
+}
+
+/* Small devices responsiveness */
+
+@media (max-width: 480px) {
+  .cardBox {
+    max-width: 20rem;
+    min-height: auto;
+  }
 }
