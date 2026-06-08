@@ -1,5 +1,5 @@
 import Accordion from "react-bootstrap/Accordion";
-import './testimonialCard.css';
+import "./testimonialCard.css";
 
 const TestimonialCard = () => {
   return (
@@ -7,14 +7,39 @@ const TestimonialCard = () => {
       <h2 className="fs-5 mt-5 card-Header ">TESTIMONIALS</h2>
       <Accordion defaultActiveKey="0" className="mt-5 mx-5 test-Accordion">
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Accordion Item #1</Accordion.Header>
+          <Accordion.Header>"Stay Calm when Projects Got Stressful and Helped Group Members"</Accordion.Header>
           <Accordion.Body className="test-body">
             <p>
-              "xxxxxxxxxxxxxx xxxxxxxx xxfafcsgavvha bshbahsjhjanj snajsnjasnsnssnsssjas "
+              "Achini has during the spring semester 2026 studied the course IT:
+              Tech for Women at Sundsgårdens Folkhögskola. During the course,
+              Achini showed tremendous dedication to her studies. She always
+              showed up to class on time, did her assignments early, and showed
+              great understanding for the material. Achini was not afraid to ask
+              questions when she felt something was unclear and her questions
+              showed that she did not just want to understand the material in
+              the course well enough to pass the assignments, but on a much
+              deeper level. It was clear that she wanted to fully understand why
+              and how different programming techniques worked together the way
+              they do. Achini was very quick to understand even the harder
+              topics in the course, which was shown through her assignments. All
+              her assignments were done on time (often well before the deadline)
+              and her code demonstrated that she really understood the material
+              well. More than this, Achini was also a great group member during
+              the different group projects. She often demonstrated an ability to
+              stay calm when projects got stressful and she always helped her
+              group members whenever needed. During this course, Achini has
+              demonstrated that she is a dedicated student who really invests
+              her time and energy into her work. She is kind and calm when
+              things get stressful, and she is always curious about how to
+              improve and grow as a developer. I am certain that Achini will do
+              great things in the future and I am excited to see where her
+              journey in IT takes her next. "
             </p>
 
             <p className="mt-2 fw-bold ">
-              <em>- Michelle Andersson, Kursföreståndare, IT Programmering, Sundsgårdens folkhögskola</em>
+              <em>
+                - Michelle Hanskov Palm , Course coordination, IT: Tech for Women, Sundsgårdens Folkhögskola. 
+              </em>
             </p>
           </Accordion.Body>
         </Accordion.Item>
@@ -61,7 +86,9 @@ const TestimonialCard = () => {
             </p>
 
             <p className="mt-2 fw-bold ">
-              <em>- Anitha Thunga, Squid-Game Project, Sundsgårdens folkhögskola</em>
+              <em>
+                - Anitha Thunga, Squid-Game Project, Sundsgårdens folkhögskola
+              </em>
             </p>
           </Accordion.Body>
         </Accordion.Item>
