@@ -134,13 +134,13 @@ const CardComponent = () => {
         size="xl"
         className="bg-black"
       >
-        <Modal.Header closeButton>
+        <Modal.Header closeButton closeVariant="white" className="bg-dark text-white">
           <Modal.Title>
             {selectedCard && cardData[selectedCard].title}
           </Modal.Title>
         </Modal.Header>
 
-        <Modal.Body>
+        <Modal.Body className="bg-dark text-white">
           {selectedCard && cardData[selectedCard].content}
         </Modal.Body>
       </Modal>

@@ -5,6 +5,7 @@ import Projects from "./components/projects/Projects";
 import TestimonialCard from "./components/testimonials/TestimonialCard";
 import ContactForm from "./components/contact/ContactForm";
 import Footer from "./components/footer/Footer";
+import ScrollToTop from "./components/scroll/scrollToTop";
 const App = () => {
   return (
     <div>
@@ -15,6 +16,7 @@ const App = () => {
       <Projects/>
       <TestimonialCard/>
       <ContactForm/>
+      <ScrollToTop/>
       </main>
       <Footer/>
 
