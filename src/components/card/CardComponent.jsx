@@ -70,6 +70,8 @@ const CardComponent = () => {
             <li>Git/GitHub</li>
             <li>Jira</li>
             <li>Figma</li>
+            <li>Microsoft Office -Outlook,
+Word, Excel, Teams</li>
           </ul>
         </>
       ),
