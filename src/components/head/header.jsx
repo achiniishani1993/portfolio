@@ -1,4 +1,3 @@
-import React from 'react'
 import Profile from "../../assets/profile.webp"
 import "./header.css";
 

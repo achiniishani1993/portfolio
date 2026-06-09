@@ -11,9 +11,9 @@ const Projects = () => {
   return (
     <div className="carousel-wrapper mt-5" id="projects">
         <h2 className="fs-5 mt-5 ms-5">EXAMPLES OF MY WORK</h2>
-      <Carousel className="mx-5 mt-5 custom-carousel">
+      <Carousel className="mx-5 mt-5 custom-carousel" interval={null}>
         <Carousel.Item>
-          <img className="d-block rounded w-100" src={Cafe} alt="Project 1" />
+          <img className="d-block rounded " src={Cafe} alt="Project 1" />
           <Carousel.Caption className="bg-dark rounded caption">
             <h3>Cafe Nora</h3>
             <p>
@@ -25,15 +25,16 @@ const Projects = () => {
               href="https://achiniishani1993.github.io/cafe-nora/"
               target="_blank"
               rel="noopener noreferrer"
+                className="btn btn-outline-light" 
             >
-              🔗 View Live Project
+              View Live Project
             </a>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
           <img
-            className="d-block w-100 rounded "
+            className="d-block rounded "
             src={Bhromaon}
             alt="Project 2"
           />
@@ -47,15 +48,16 @@ const Projects = () => {
               href="https://achiniishani1993.github.io/Bhromaon/"
               target="_blank"
               rel="noopener noreferrer"
+              className="btn btn-outline-light" 
             >
-              🔗 View Live Project
+              View Live Project
             </a>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
           <img
-            className="d-block w-100 rounded"
+            className="d-block rounded"
             src={Sky}
             alt="Project 2"
           />
@@ -66,14 +68,15 @@ const Projects = () => {
               href="https://achiniishani1993.github.io/Sky-Sprinter/"
               target="_blank"
               rel="noopener noreferrer"
+                className="btn btn-outline-light" 
             >
-              🔗 View Live Project
+               View Live Project
             </a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 rounded"
+            className="d-block rounded"
             src={Facebook}
             alt="Project 2"
           />
@@ -84,14 +87,15 @@ const Projects = () => {
               href="https://achiniishani1993.github.io/Facebook-clone/"
               target="_blank"
               rel="noopener noreferrer"
+             className="btn btn-outline-light" 
             >
-              🔗 View Live Project
+               View Live Project
             </a>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
-            className="d-block w-100 rounded"
+            className="d-block rounded"
             src={Game}
             alt="Project 2"
           />
@@ -102,8 +106,9 @@ const Projects = () => {
               href="https://achiniishani1993.github.io/squid-game/"
               target="_blank"
               rel="noopener noreferrer"
+               className="btn btn-outline-light" 
             >
-              🔗 View Live Project
+              View Live Project
             </a>
           </Carousel.Caption>
         </Carousel.Item>

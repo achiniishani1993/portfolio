@@ -108,7 +108,7 @@ const CardComponent = () => {
         {cards.map((card) => (
           <Card
             key={card.id}
-            className="shadow-sm cardBox"
+            className="shadow-sm cardBox d-flex justify-content-center align-items-center"
             onClick={() => handleShow(card.id)}
           >
             <Card.Img
@@ -118,7 +118,7 @@ const CardComponent = () => {
               fetchPriority="high"
               loading="eager"
             />
-            <Card.Body>
+            <Card.Body className="d-flex flex-column align-items-center">
               <Card.Title className="text-center fw-bold">
                 {card.title}
               </Card.Title>
@@ -127,7 +127,13 @@ const CardComponent = () => {
         ))}
       </div>
 
-      <Modal show={show} onHide={() => setShow(false)} centered size="xl">
+      <Modal
+        show={show}
+        onHide={() => setShow(false)}
+        centered
+        size="xl"
+        className="bg-black"
+      >
         <Modal.Header closeButton>
           <Modal.Title>
             {selectedCard && cardData[selectedCard].title}

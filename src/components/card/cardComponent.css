@@ -1,13 +1,13 @@
 .cardBox {
+
   cursor: pointer;
   transition: all 0.3s ease;
   border: none !important;
-    will-change: transform;
+  will-change: transform;
 
   width: 100%;
-  max-width: 25rem;
-   min-height: 320px;
-  
+  max-width: 24.7rem;
+  min-height: 200px;
 }
 
 .cardBox:hover {
@@ -18,9 +18,8 @@
 }
 
 .cardBox img {
-  width: 100%;
-  height: auto;
-   aspect-ratio: 4 / 3;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
 }
 /* Dark mode text wrapper */

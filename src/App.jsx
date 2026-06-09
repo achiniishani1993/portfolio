@@ -5,17 +5,19 @@ import Projects from "./components/projects/Projects";
 import TestimonialCard from "./components/testimonials/TestimonialCard";
 import ContactForm from "./components/contact/ContactForm";
 import Footer from "./components/footer/Footer";
-
 const App = () => {
   return (
     <div>
       <NavBar />
+      <main>
       <Header />
       <CardComponent />
       <Projects/>
       <TestimonialCard/>
       <ContactForm/>
+      </main>
       <Footer/>
+
     </div>
   );
 };

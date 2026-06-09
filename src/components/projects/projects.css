@@ -10,8 +10,10 @@
 
 /* Make images consistent */
 .custom-carousel img {
-  height: auto;
-   object-fit: cover;
+   width: 100% !important;
+   height: auto !important;
+   object-fit: cover !important;
+  
 }
 
 
@@ -155,3 +157,6 @@
 
 }
 }
+
+
+
