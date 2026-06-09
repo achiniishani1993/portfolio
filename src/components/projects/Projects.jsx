@@ -17,21 +17,22 @@ const projects = [
     tech: "HTML, CSS, Google Fonts, Embedded Google Maps, Font Awesome icons, Figma, Git Jira",
     liveUrl: "https://achiniishani1993.github.io/cafe-nora/",
     overview:
-      "Cafe Nora is a modern, elegant multi-page café website built using HTML5 and CSS3. The website includes a homepage, gallery page, menu page, contact section, booking form, newsletter subscription, and interactive design elements. The project focuses on creating an engaging user experience through responsive layouts, animations, and visually appealing content.",
+      "Cafe Nora is a modern, elegant multi-page café website built using html and CSS. The website includes a homepage, gallery page, menu page, contact section, booking form, newsletter subscription, and interactive design elements. The project focuses on creating an engaging user experience through responsive layouts, animations, and visually appealing content.",
     myRole: [
       "Designed the Home Page using Figma",
-      "Developed the Home Page and Gallery Page layouts using HTML5 and CSS3.",
-      "Created a welcoming user interface with clear navigation and booking call-to-action elements.",
+      "Developed the Home Page and Gallery Page layouts using HTML and CSS.",
+      "Created a welcoming user interface with clear navigation and booking elements.",
       "Implemented the slideshow section using CSS animations.",
       "Designed the image gallery using CSS Grid and Flexbox with hover zoom effects.",
       "Ensured pages were responsive and visually appealing across different screen sizes.",
     ],
     learned: [
-      "HTML5 semantic structure",
-      "CSS3 styling and responsive design techniques",
+      "HTML semantic structure",
+      "CSS styling and responsive design techniques",
       "CSS Grid and Flexbox for layout creation",
       "CSS animations and hover effects",
       "Team collaboration and dividing project responsibilities",
+      "Git branches, pull request and conflicts resovling"
     ],
     groupOrSolo:
       "Group project — responsibilities were divided among team members, ensuring consistency across all pages.",
@@ -43,10 +44,10 @@ const projects = [
     img: Bhromaon,
     alt: "Bhromaon",
     title: "Bhromaon",
-    tech: "HTML, CSS3 / SCSS (SASS), JavaScript, Animate.css",
+    tech: "HTML, CSS / SCSS (SASS), JavaScript, Animate.css",
     liveUrl: "https://achiniishani1993.github.io/Bhromaon/",
     overview:
-      "Bhromaon is a modern, fully responsive travel website built using HTML5, SCSS (SASS), and JavaScript. The website is designed based on a Figma design and focuses on delivering an engaging and interactive user experience. It allows users to explore travel destinations, view services, and navigate through smooth scrolling sections with animated UI elements. The project demonstrates strong front-end development practices including modular SCSS structure, responsive layouts, and dynamic JavaScript interactions.",
+      "Bhromaon is a modern, fully responsive travel website built using HTML, SCSS (SASS), and JavaScript. The website is designed based on a Figma design and focuses on delivering an engaging and interactive user experience. It allows users to explore travel destinations, view services, and navigate through smooth scrolling sections with animated UI elements. The project demonstrates strong front-end development practices including modular SCSS structure, responsive layouts, and dynamic JavaScript interactions.",
     myRole: [
       "I worked as the sole developer of this project.",
       "I was responsible for converting the Figma design into a fully functional responsive website.",
@@ -72,7 +73,7 @@ const projects = [
     tech: "HTML, CSS, JavaScript",
     liveUrl: "https://achiniishani1993.github.io/Sky-Sprinter/",
     overview:
-      "Sky-Sprinter (Flappy Astro Game) is a fun and interactive browser-based game built using HTML5, CSS3, and JavaScript. Inspired by Flappy Bird, the game challenges players to control an astronaut character, avoid obstacles (pipes), and achieve the highest possible score. It features smooth animations, responsive controls, and real-time gameplay mechanics.",
+      "Sky-Sprinter (Flappy Astro Game) is a fun and interactive browser-based game built using HTML, CSS, and JavaScript. Inspired by Flappy Bird, the game challenges players to control an astronaut character, avoid obstacles (pipes), and achieve the highest possible score. It features smooth animations, responsive controls, and real-time gameplay mechanics.",
     myRole: [
       "I developed the entire game independently as a solo project.",
       "I implemented the core game logic using JavaScript, including gravity, jumping mechanics, and collision detection.",
@@ -128,7 +129,7 @@ const projects = [
       "Squid Game is a responsive React-based mini game inspired by the popular series Squid Game. The application simulates a full user journey including registration, login, character selection, gameplay, scoring system, and a leaderboard. It combines game logic, authentication flow, and interactive UI components to create an engaging browser experience.",
     myRole: [
       "Designed whole game using Figma and communicated requirment with team",
-      "Contributed to both frontend development and game logic implementation.",
+      "Contributed to both frontend development, project planning  and game logic implementation.",
       "I implemented user authentication and integrated localStorage to store user data and maintain persistent scores.",
       "I developed character selection page,logics and leaderboard ",
       "I build the leaderboard system with dynamic ranking and random competitors from an external API.",
@@ -141,7 +142,7 @@ const projects = [
       "I developed teamwork and collaboration skills in a multi-feature frontend project.",
       "I improved my ability to build structured and scalable React applications.",
     ],
-    groupOrSolo: "Solo project",
+    groupOrSolo: "Group project",
     whyProject: "This project was created to simulate a real-world interactive game application using React. It helped us combine multiple frontend concepts such as authentication, routing, API integration, and game logic while working collaboratively as a development team. The goal was to improve both technical and teamwork skills while building an engaging user experience.",
   },
 ];
