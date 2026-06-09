@@ -8,9 +8,9 @@ const CardComponent = () => {
   const [show, setShow] = useState(false);
   const [selectedCard, setSelectedCard] = useState(null);
 
-  const Edu = "/edu.webp";
-  const Work = "/work.webp";
-  const Skills = "/skills.webp";
+  const Edu = `${import.meta.env.BASE_URL}edu.webp`;
+  const Work = `${import.meta.env.BASE_URL}work.webp`;
+  const Skills = `${import.meta.env.BASE_URL}skills.webp`;
 
   const cardData = {
     education: {
@@ -70,8 +70,7 @@ const CardComponent = () => {
             <li>Git/GitHub</li>
             <li>Jira</li>
             <li>Figma</li>
-            <li>Microsoft Office -Outlook,
-Word, Excel, Teams</li>
+            <li>Microsoft Office -Outlook, Word, Excel, Teams</li>
           </ul>
         </>
       ),
@@ -136,7 +135,11 @@ Word, Excel, Teams</li>
         size="xl"
         className="bg-black"
       >
-        <Modal.Header closeButton closeVariant="white" className="bg-dark text-white">
+        <Modal.Header
+          closeButton
+          closeVariant="white"
+          className="bg-dark text-white"
+        >
           <Modal.Title>
             {selectedCard && cardData[selectedCard].title}
           </Modal.Title>
